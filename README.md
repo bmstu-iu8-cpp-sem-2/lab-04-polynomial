@@ -3,18 +3,23 @@
 ## Теория
 
 Многочлен (полином) от одной переменной - конечная формальная сумма вида:
+
 ![](https://latex.codecogs.com/gif.latex?\sum_{i}^{n}c_{i}x^{i}=c_{0}&plus;c_{1}x^{1}&plus;...&plus;c_{n}x^{n})
+
 , где
 ![](https://latex.codecogs.com/gif.latex?c_{i}) - фиксированные коэффициенты (например, из множеств  ![](https://latex.codecogs.com/gif.latex?\mathbb{Z},\mathbb{R},\mathbb{C},F_q) и т.д.)
+
 ![](https://latex.codecogs.com/gif.latex?x) - переменная. 
 
 Многочлен может быть однозначно определён вектором коэффициентов над некоторым множеством, например:
 
 ![](https://latex.codecogs.com/gif.latex?[1,-12,0,-42]=x^{3}-12x^{2}-42) над кольцом целых чисел ![](https://latex.codecogs.com/gif.latex?\mathbb{Z})
+
 ![](https://latex.codecogs.com/gif.latex?[1,0,0,1,1]=x^{4}&plus;x&plus;1) над полем ![](https://latex.codecogs.com/gif.latex?F_2)
 
 ## Задание
 Реализуйте шаблон класса `Polynomial`, представляющий многочлен от одной переменной с коэффициентами произвольного типа `T`.
+
 Интерфейс и тесты для класса требуется проработать самостоятельно.
 
 Список операций и методов, которые должен поддерживать полином:
