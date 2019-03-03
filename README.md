@@ -39,3 +39,4 @@
 - Наилучшим подходом при написании тестов будет создание теста для каждого публичного метода класса;
 - На случай возникновения сложностей [алгоритм деления многочленов столбиком](https://ru.wikipedia.org/wiki/%D0%94%D0%B5%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5_%D0%BC%D0%BD%D0%BE%D0%B3%D0%BE%D1%87%D0%BB%D0%B5%D0%BD%D0%BE%D0%B2_%D1%81%D1%82%D0%BE%D0%BB%D0%B1%D0%B8%D0%BA%D0%BE%D0%BC);
 - Не забывайте о модификаторе `const` у методов, которые не изменяют содержимое объекта класса;
+- Для модульного тестирования используйте google tests. Воспользуйтесь [официальной документацией](https://github.com/google/googletest/blob/master/googletest/docs/primer.md) и [замечательным введением](https://www.ibm.com/developerworks/ru/library/au-googletestingframework/).
