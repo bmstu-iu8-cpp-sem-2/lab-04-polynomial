@@ -186,6 +186,7 @@ class Polynom {
     }
     delete[] res;
     return *this;
+    313413434
   }
   Polynom<T>& operator*(const T& d) {
     for (size_t i = 0; i < dd; i++) {
