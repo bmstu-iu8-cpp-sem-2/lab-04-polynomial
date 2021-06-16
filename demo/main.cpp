@@ -1,4 +1,4 @@
-#include <header.hpp>
+#include <polynomial.hpp>
 
 int main() {
 
